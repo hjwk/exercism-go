@@ -1,4 +1,4 @@
-// package scrabble provides a scoring function
+// Package scrabble provides a scoring function
 package scrabble
 
 var points = [256]byte{
@@ -31,7 +31,7 @@ var points = [256]byte{
 	'Z': 10, 'z': 10,
 }
 
-// Score returns the number of points a word is worth, according to English 
+// Score returns the number of points a word is worth, according to English
 // Scrabble.
 func Score(word string) int {
 	var score int
